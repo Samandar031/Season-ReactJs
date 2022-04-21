@@ -49,12 +49,7 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-      <DisplaySeason
-        lat={this.state.lat}
-        err={this.state.errorMessage}
-      ></DisplaySeason>
-    );
+    return <DisplaySeason lat={this.state.lat} err={this.state.errorMessage} />;
   }
 }
 
